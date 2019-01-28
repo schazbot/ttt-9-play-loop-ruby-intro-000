@@ -43,5 +43,5 @@ def play(board)
    counter +-1
    until counter == 9
      break
-end
+   end
 end
