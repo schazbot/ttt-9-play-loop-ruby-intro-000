@@ -43,6 +43,7 @@ def play(board)
    turn(board)
    counter +-1
 end
+end
 #* Start a loop and call `#turn`.
 
  # Start our counter at 0, we have never run the loop
