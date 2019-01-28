@@ -36,3 +36,14 @@ def turn(board)
 end
 
 # Define your play method below
+counter = 1
+def play(board)
+loop do
+  puts "Input a number from 1-9"
+  if counter >= 9 
+    break 
+  end
+end
+#* Start a loop and call `#turn`.
+
+ # Start our counter at 0, we have never run the loop
