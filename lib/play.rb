@@ -46,6 +46,5 @@ def play(board)
      break
 end
 end
-#* Start a loop and call `#turn`.
-
- # Start our counter at 0, we have never run the loop
+end
+end
