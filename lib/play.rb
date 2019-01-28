@@ -38,12 +38,10 @@ end
 # Define your play method below
 counter = 1
 def play(board)
-loop do
-  puts "Input a number from 1-9"
-  if counter >= 9
-    break
-  end
-end
+ counter = 0
+ while counter <9
+   turn(board)
+   counter +-1
 end
 #* Start a loop and call `#turn`.
 
