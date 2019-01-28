@@ -40,8 +40,8 @@ counter = 1
 def play(board)
 loop do
   puts "Input a number from 1-9"
-  if counter >= 9 
-    break 
+  if counter >= 9
+    break
   end
 end
 #* Start a loop and call `#turn`.
